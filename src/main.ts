@@ -8,5 +8,26 @@ if (environment.production) {
   enableProdMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+const promise: Promise<any> = new Promise((resolve, reject) => {
+  resolve(1);
+});
+
+promise
+  .then()
+  .then()
+  .then()
+  .then()
+  .then()
+  .then()
+  .then()
+  .then()
+  .then()
+  .then()
+  .then()
+  .then()
+  .then()
+  .then();
+
+platformBrowserDynamic()
+  .bootstrapModule(AppModule)
+  .catch((err) => console.error(err));
